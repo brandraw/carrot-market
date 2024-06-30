@@ -15,7 +15,7 @@ export default function Login() {
 
       <form action={action} className="space-y-4">
         <FormInput
-          label="E-amil"
+          label="E-mail"
           name="email"
           type="email"
           required

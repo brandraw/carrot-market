@@ -10,7 +10,7 @@ export default function SignUp() {
 
   return (
     <div className="space-y-4">
-      <h1>This is SignUp Page!</h1>
+      <h1 className="text-2xl font-semibold">Sign Up</h1>
       <form action={action} className="space-y-3">
         <FormInput
           label="Username"
@@ -44,7 +44,7 @@ export default function SignUp() {
           placeholder="********"
           errors={state?.fieldErrors.password_confirm}
         />
-        <FormBtn label="Sing Up!" />
+        <FormBtn label="Sign Up!" />
       </form>
     </div>
   );
